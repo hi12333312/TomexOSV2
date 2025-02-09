@@ -1,0 +1,83 @@
+/* styles.css */
+
+/* Asegura que el cuerpo del sitio tenga el fondo del wallpaper */
+body {
+    background-image: url('windows_xp_bliss.jpg'); /* Ruta de la imagen */
+    background-size: cover; /* Cubre toda la pantalla */
+    background-position: center center; /* Centra la imagen */
+    background-attachment: fixed; /* Fija el fondo mientras se hace scroll */
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo negro semitransparente para el encabezado */
+    color: white;
+    padding: 10px 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px 0;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente blanco para las secciones */
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
